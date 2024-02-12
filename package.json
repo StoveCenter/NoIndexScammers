@@ -1,0 +1,20 @@
+{
+  "name": "noindexscammers",
+  "version": "0.1.0",
+  "description": "Adds no-index to any non SGPFL domains loading this script.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StoveCenter/NoIndexScammers.git"
+  },
+  "author": "Calvin Ellis <cellis9494@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/StoveCenter/NoIndexScammers/issues"
+  },
+  "homepage": "https://github.com/StoveCenter/NoIndexScammers#readme",
+  "dependencies": {}
+}
