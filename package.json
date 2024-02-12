@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "terser index.js -o ./dist/sgpflv0.min.js -c -m --toplevel"
+    "build": "terser index.js -o ./dist/737004e1-a937-44f2-8475-f3bc5e0b730e.min.js -c -m --toplevel"
   },
   "repository": {
     "type": "git",
