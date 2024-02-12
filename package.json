@@ -4,7 +4,8 @@
   "description": "Adds no-index to any non SGPFL domains loading this script.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "terser index.js -o sgpflv0.min.js -c -m --toplevel"
   },
   "repository": {
     "type": "git",
