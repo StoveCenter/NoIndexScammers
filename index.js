@@ -1,8 +1,10 @@
 var domains = ["stoveandgrillparts.com", "pellet-stove-parts-4less.com"];
 
-    // Check if we have the "test" parameter in the URL
-    var urlParams = new URLSearchParams(window.location.search);
-    var isTest = urlParams.has('test');
+// Check if we have the "test" parameter in the URL
+var urlParams = new URLSearchParams(window.location.search);
+var isTest = urlParams.has('test');
+
+// If the current domain is not in the list of allowed domains, add a noindex meta tag
 if (!domains.includes(window.location.hostname)) {
 
     // If the "test" parameter is present, add a console log of the result
