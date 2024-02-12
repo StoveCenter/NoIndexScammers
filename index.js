@@ -17,6 +17,6 @@ if (!domains.includes(window.location.hostname)) {
     document.getElementsByTagName('head')[0].appendChild(meta);
 }
 
-if (!isTest) {
+if (isTest) {
     console.log("This domain is OK.");
 }
